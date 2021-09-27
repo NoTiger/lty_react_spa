@@ -1,0 +1,10 @@
+.main-menu {
+  background: $transparent-bg;
+  backdrop-filter: $backdrop-filter-blur;
+
+  a {
+    &:hover {
+      color: $orange;
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import { LogoHeaderProps } from "./type";
+import logo from "images/logo.png";
 
 export default function LogoHeader({ title }: LogoHeaderProps) {
   return (
@@ -12,5 +13,5 @@ export default function LogoHeader({ title }: LogoHeaderProps) {
 }
 
 function LogoIcon() {
-  return <img alt="logo icon" src="@/images/logo.png" />;
+  return <img alt="logo icon" src={logo} />;
 }

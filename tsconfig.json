@@ -1,10 +1,12 @@
 {
-  "include": ["src", "types"],
+  "include": [
+    "src"
+  ],
   "compilerOptions": {
     "module": "esnext",
     "target": "esnext",
     "moduleResolution": "node",
-    "jsx": "react-jsx",
+    "jsx": "react",
     "baseUrl": "./src",
     "noEmit": true,
     "strict": true,
@@ -14,12 +16,13 @@
     "allowSyntheticDefaultImports": true,
     "importsNotUsedAsValues": "remove",
     "isolatedModules": true,
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "esModuleInterop": true,
-    "noFallthroughCasesInSwitch": true,
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "noFallthroughCasesInSwitch": true
   }
 }

@@ -1,15 +1,10 @@
 import React, { useEffect, useState, useRef } from "react";
-import MainMenu from "@/components/MainMenu";
-import SocialMediaMenu from "@/components/SocialMediaMenu";
+import MainMenu from "components/MainMenu";
+import SocialMediaMenu from "components/SocialMediaMenu";
 
 export default function LandingSection(): React.FunctionComponentElement<any> {
   const ref = useRef<HTMLDivElement>(null);
   const [shownMenu, setMenuShown] = useState(false);
-  let observer: IntersectionObserver;
-
-  const options = {
-    threshold: 0.25,
-  };
 
   const handleIntersection = (entries: any[]) => {
     entries.forEach(({ intersectionRatio }) => {
@@ -21,7 +16,11 @@ export default function LandingSection(): React.FunctionComponentElement<any> {
   };
 
   useEffect(() => {
-    observer = new IntersectionObserver(handleIntersection, options);
+    const options = {
+      threshold: 0.25,
+    };
+
+    const observer = new IntersectionObserver(handleIntersection, options);
     if (ref.current) {
       observer.observe(ref.current);
     }

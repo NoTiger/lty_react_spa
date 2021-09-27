@@ -4,15 +4,19 @@ import {
   InstagramIc,
   LinkedInIc,
   YoutubeIc,
-} from "@/components/icons";
-import CONSTANT from "@/constant";
+} from "components/icons";
+import CONSTANT from "constant";
 import { SocialMediaMenuProps } from "./type";
 
 export default function SocialMediaMenu({
   className = "",
 }: SocialMediaMenuProps) {
   return (
-    <div className={["social-media-menu inline-block mb-5 mr-2.5", className].join(" ")}>
+    <div
+      className={["social-media-menu inline-block mb-5 mr-2.5", className].join(
+        " "
+      )}
+    >
       <a href={CONSTANT.SOCIAL_MEDIA_LINKS.facebook}>
         <FacebookIc className="mb-7" />
       </a>

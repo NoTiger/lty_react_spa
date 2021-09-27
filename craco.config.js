@@ -8,7 +8,7 @@ module.exports = {
   },
   webpack: {
     alias: {
-      "@": path.resolve(__dirname, "src"),
+      "@images": path.resolve(__dirname, "src/images"),
     },
   },
 };

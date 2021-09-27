@@ -1,6 +1,6 @@
 import React from "react";
-import BlurTextBlock from "@/components/BlurTextBlock";
-import LogoHeader from "@/components/LogoHeader";
+import BlurTextBlock from "components/BlurTextBlock";
+import LogoHeader from "components/LogoHeader";
 
 export default function MyPurpose() {
   const contents = [
@@ -30,7 +30,7 @@ export default function MyPurpose() {
         <img
           id="img-against-wall"
           alt="against wall"
-          src="@/images/againstWall.png"
+          src="@images/againstWall.png"
         />
       </div>
       <div className="flex justify-center">
@@ -43,7 +43,7 @@ export default function MyPurpose() {
         <img
           id="img-blastik-promo"
           alt="blastik promotion"
-          src="@/images/blastikPromo.png"
+          src="@images/blastikPromo.png"
         />
       </div>
       <div className="relative flex justify-center ml-3 z-10">
@@ -54,7 +54,7 @@ export default function MyPurpose() {
           id="img-yolo"
           className="z-0"
           alt="yolo photographer"
-          src="@/images/yolo.png"
+          src="@images/yolo.png"
         />
       </div>
     </div>

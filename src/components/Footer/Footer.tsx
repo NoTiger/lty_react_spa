@@ -4,6 +4,7 @@ import CONSTANT from "constant";
 import SocialMediaMenu from "components/SocialMediaMenu";
 import { ArrowUp } from "components/icons";
 import { motion } from "framer-motion";
+import { scrollTop } from "utils";
 
 const backToTop = {
   rest: { scale: 1 },
@@ -15,14 +16,6 @@ export default function Footer() {
   const {
     INTERNAL_LINKS: { myStory, contact, experience, gallery },
   } = CONSTANT;
-
-  function onClick() {
-    const app = document.querySelector(".app");
-
-    if (app) {
-      app.scrollTo({ top: 0, behavior: "smooth" });
-    }
-  }
 
   return (
     <footer className="footer flex flex-col items-center text-white">
@@ -57,7 +50,7 @@ export default function Footer() {
         whileTap="pressed"
       >
         <ArrowUp className="mt-15 text-2xl" />
-        <motion.span className="mb-15 select-none" onClick={onClick}>
+        <motion.span className="mb-15 select-none" onClick={scrollTop}>
           back to top
         </motion.span>
       </motion.div>

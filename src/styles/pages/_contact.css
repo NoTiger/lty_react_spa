@@ -1,0 +1,28 @@
+.contact .arrow-back {
+  left: -40%;
+}
+
+.contact .arrow-back svg {
+  fill: var(--text-color);
+}
+
+.contact form input,
+textarea {
+  border-bottom-width: 2px;
+  border-bottom-color: var(--border-color);
+  color: var(--text-color);
+  height: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.contact .social-media-menu svg {
+  fill: var(--text-color);
+}
+
+.contact .social-media-menu svg:hover {
+  fill: var(--orange);
+}

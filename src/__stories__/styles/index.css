@@ -1,0 +1,13 @@
+.story-wrapper {
+  height: 100%;
+  background-color: #ccc;
+  padding: 3rem;
+}
+
+.iphone-8-view-port {
+  width: 375px;
+  background: #777;
+  height: auto !important;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}

@@ -5,6 +5,14 @@ const CONSTANT = {
     facebook: "https://www.facebook.com/ltygrazsilver",
     youtube: "https://www.youtube.com/user/ltygrazsilver",
   },
+  INTERNAL_LINKS: {
+    myStory: "/#my-story",
+    myPurpose: "/#my-purpose",
+    experience: "/experience",
+    gallery: "/gallery",
+    blastik: "/#blastik",
+    contact: "/contact",
+  },
 };
 
 export default CONSTANT;

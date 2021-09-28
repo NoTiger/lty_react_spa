@@ -31,7 +31,10 @@ export default function LandingSection(): React.FunctionComponentElement<any> {
   }, []);
 
   return (
-    <div className="landing-section relative h-full" ref={ref}>
+    <div
+      className="landing-section relative h-full"
+      ref={ref}
+    >
       <div className="text-block absolute poppins flex flex-col select-none">
         <span className="title text-orange">GRAZ</span>
         <span className="subtitle ml-3 text-white">

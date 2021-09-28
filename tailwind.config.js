@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   important: true,
   theme: {
     spacing: {
@@ -26,6 +26,14 @@ module.exports = {
       11: "44px",
       12: "48px",
       12.5: "50px",
+      13: "52px",
+      14: "56px",
+      15: "60px",
+      16: "64px",
+      17: "68px",
+      18: "72px",
+      19: "76px",
+      20: "80px",
     },
     colors: {
       transparent: "transparent",

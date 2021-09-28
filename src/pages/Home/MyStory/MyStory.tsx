@@ -14,7 +14,7 @@ export default function MyStory() {
   }
 
   return (
-    <div className="my-story relative bg-white h-full pt-4">
+    <div id="my-story" className="my-story relative bg-white h-full pt-4">
       <div className="relative flex flex-col z-10">
         <LogoHeader title="MY STORY" />
         <div className="flex justify-end">

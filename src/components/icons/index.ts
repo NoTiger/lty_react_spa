@@ -1,6 +1,2 @@
-export {
-  FacebookIc,
-  InstagramIc,
-  LinkedInIc,
-  YoutubeIc,
-} from "./socialMedia";
+export { ArrowUp } from "./common";
+export { FacebookIc, InstagramIc, LinkedInIc, YoutubeIc } from "./socialMedia";

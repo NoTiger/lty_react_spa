@@ -1,7 +1,7 @@
 import React from "react";
 import { Meta, Story } from "@storybook/react";
-import BlurTextBlock, { BlurTextBlockProps } from "@/components/BlurTextBlock";
-import CONSTANT from "@/__stories__/constant";
+import BlurTextBlock, { BlurTextBlockProps } from "components/BlurTextBlock";
+import CONSTANT from "__stories__/constant";
 
 const Template: Story<BlurTextBlockProps> = (args) => (
   <>

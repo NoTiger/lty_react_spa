@@ -1,5 +1,5 @@
-import "@/styles/__test__/index.css";
-import "@/__stories__/styles/index.css";
+import "styles/index.scss";
+import "__stories__/styles/index.css";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },

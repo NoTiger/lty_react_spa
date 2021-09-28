@@ -1,6 +1,6 @@
 import React from "react";
-import MyPurpose from "@/pages/Home/MyPurpose";
-import CONSTANT from "@/__stories__/constant";
+import MyPurpose from "pages/Home/MyPurpose";
+import CONSTANT from "__stories__/constant";
 
 const MobileViewDefault = () => (
   <div className="iphone-8-view-port">

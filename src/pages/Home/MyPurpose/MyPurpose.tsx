@@ -1,6 +1,9 @@
 import React from "react";
 import BlurTextBlock from "components/BlurTextBlock";
 import LogoHeader from "components/LogoHeader";
+import againstWall from "images/againstWall.png";
+import blastikPromo from "images/blastikPromo.png";
+import yolo from "images/yolo.png";
 
 export default function MyPurpose() {
   const contents = [
@@ -27,11 +30,7 @@ export default function MyPurpose() {
         </div>
       </div>
       <div>
-        <img
-          id="img-against-wall"
-          alt="against wall"
-          src="@images/againstWall.png"
-        />
+        <img id="img-against-wall" alt="against wall" src={againstWall} />
       </div>
       <div className="flex justify-center">
         <BlurTextBlock content={contents[1]} />
@@ -43,19 +42,14 @@ export default function MyPurpose() {
         <img
           id="img-blastik-promo"
           alt="blastik promotion"
-          src="@images/blastikPromo.png"
+          src={blastikPromo}
         />
       </div>
       <div className="relative flex justify-center ml-3 z-10">
         <BlurTextBlock content={contents[3]} />
       </div>
       <div className="pb-8">
-        <img
-          id="img-yolo"
-          className="z-0"
-          alt="yolo photographer"
-          src="@images/yolo.png"
-        />
+        <img id="img-yolo" className="z-0" alt="yolo photographer" src={yolo} />
       </div>
     </div>
   );

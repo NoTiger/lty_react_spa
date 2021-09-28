@@ -1,8 +1,8 @@
 import React from "react";
 import { Meta, Story } from "@storybook/react";
-import MainMenu, { MainMenuProps } from "@/components/MainMenu";
-import { StoryRouterWrapper } from "@/__stories__/decorators";
-import CONSTANT from "@/__stories__/constant";
+import MainMenu, { MainMenuProps } from "components/MainMenu";
+import { StoryRouterWrapper } from "__stories__/decorators";
+import CONSTANT from "__stories__/constant";
 
 const Template: Story<MainMenuProps> = (args) => <MainMenu {...args} />;
 

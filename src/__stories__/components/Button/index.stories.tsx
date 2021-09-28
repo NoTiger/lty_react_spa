@@ -1,7 +1,7 @@
 import React from "react";
 import { Meta, Story } from "@storybook/react";
-import Button, { ButtonProps } from "@/components/Button";
-import CONSTANT from "@/__stories__/constant";
+import Button, { ButtonProps } from "components/Button";
+import CONSTANT from "__stories__/constant";
 
 const Template: Story<ButtonProps> = (args) => <Button {...args} />;
 

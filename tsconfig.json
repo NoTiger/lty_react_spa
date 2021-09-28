@@ -2,6 +2,7 @@
   "include": [
     "src"
   ],
+  "extends": "./tsconfig.extends.json",
   "compilerOptions": {
     "module": "esnext",
     "target": "esnext",

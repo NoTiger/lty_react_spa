@@ -2,6 +2,7 @@ import React from "react";
 import Button from "components/Button";
 import BlurTextBlock from "components/BlurTextBlock";
 import LogoHeader from "components/LogoHeader";
+import myStory from "images/myStory.jpg";
 
 export default function MyStory() {
   const content = `In 2014, Graz took an unconventional path to travel around the world with only 2,000 HKD in her pocket.
@@ -24,11 +25,7 @@ export default function MyStory() {
         </div>
       </div>
       <div className="img-block absolute">
-        <img
-          className="relative z-0"
-          alt="look up"
-          src="@images/myStory.jpg"
-        />
+        <img className="relative z-0" alt="look up" src={myStory} />
       </div>
     </div>
   );

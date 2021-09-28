@@ -1,6 +1,6 @@
 import React from "react";
-import LogoHeader from "@/components/LogoHeader";
-import CONSTANT from "@/__stories__/constant";
+import LogoHeader from "components/LogoHeader";
+import CONSTANT from "__stories__/constant";
 
 const Default = () => <LogoHeader title="The Example" />;
 

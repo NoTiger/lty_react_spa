@@ -5,7 +5,7 @@ import { MainMenuProps } from "./type";
 export default function MainMenu({ shown = false }: MainMenuProps) {
   return (
     <div
-      className={`main-menu w-1/2 h-full ${
+      className={`main-menu w-1/2 h-full text-grey-font ${
         shown ? "slideInLeft" : "slideOutLeft"
       }`}
     >

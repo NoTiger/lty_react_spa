@@ -1,0 +1,24 @@
+.landing-section {
+  background-image: url("../../images/chilling.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.landing-section .text-block {
+  top: 35%;
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  text-align: center;
+  z-index: 2;
+}
+
+.landing-section .text-block .title {
+  font-size: 78px;
+  letter-spacing: -0.165em;
+  line-height: 99px;
+}
+
+.landing-section .text-block .subtitle {
+  font-size: 15px;
+}

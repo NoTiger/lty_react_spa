@@ -26,10 +26,12 @@ Default.args = {
     porttitor mauris lacus, a dictum mi egestas id.`,
 };
 
-export default {
+const storyConfig = {
   title: `${CONSTANT.COMPONENTS}/BlurTextBlock`,
   component: BlurTextBlock,
   decorators: [(story) => <div className="bg-white">{story()}</div>],
 } as Meta;
+
+export default storyConfig;
 
 export { Default };

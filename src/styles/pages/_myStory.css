@@ -1,0 +1,18 @@
+.my-story {
+  overflow-y: hidden;
+}
+
+.my-story .blur-text-block {
+  width: 83%;
+  height: auto;
+}
+
+.my-story .img-block {
+  top: -45%;
+}
+
+.my-story .img-block img {
+  width: 257px;
+  height: 528px;
+  object-fit: cover;
+}

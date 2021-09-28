@@ -1,0 +1,11 @@
+.social-media-menu {
+  width: fit-content;
+}
+
+.social-media-menu svg {
+  font-size: 31px;
+}
+
+.social-media-menu svg:hover {
+  fill: var(--orange);
+}

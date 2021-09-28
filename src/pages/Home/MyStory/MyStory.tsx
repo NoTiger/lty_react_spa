@@ -14,7 +14,7 @@ export default function MyStory() {
   }
 
   return (
-    <div className="my-story relative bg-white h-full">
+    <div className="my-story relative bg-white h-full pt-4">
       <div className="relative flex flex-col z-10">
         <LogoHeader title="MY STORY" />
         <div className="flex justify-end">
@@ -24,7 +24,7 @@ export default function MyStory() {
           <Button text="Say Hi" onClick={onClick} />
         </div>
       </div>
-      <div className="img-block absolute">
+      <div className="img-block relative">
         <img className="relative z-0" alt="look up" src={myStory} />
       </div>
     </div>

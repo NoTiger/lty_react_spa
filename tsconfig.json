@@ -1,8 +1,5 @@
 {
-  "include": [
-    "src"
-  ],
-  "extends": "./tsconfig.extends.json",
+  "include": ["src"],
   "compilerOptions": {
     "module": "esnext",
     "target": "esnext",
@@ -17,11 +14,7 @@
     "allowSyntheticDefaultImports": true,
     "importsNotUsedAsValues": "remove",
     "isolatedModules": true,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "esModuleInterop": true,
     "noFallthroughCasesInSwitch": true

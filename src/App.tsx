@@ -5,7 +5,7 @@ import Home from "pages/Home";
 import Gallery from "pages/Gallery";
 import Experience from "pages/Experience";
 import NotFound from "pages/NotFound";
-import "styles/index.scss";
+import "styles/index.css";
 
 export default function App(): React.FunctionComponentElement<null> {
   return (

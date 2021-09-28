@@ -7,6 +7,6 @@
   line-height: 150%;
   text-align: center;
   color: #fff;
-  background-color: $orange;
-  box-shadow: $box-shadow;
+  background-color: var(--orange);
+  box-shadow: var(--box-shadow);
 }

@@ -5,10 +5,12 @@ import CONSTANT from "__stories__/constant";
 
 const Default = () => <SocialMediaMenu />;
 
-export default {
+const storyConfig = {
   title: `${CONSTANT.COMPONENTS}/SocialMediaMenu`,
   component: SocialMediaMenu,
   decorators: [StoryWrapper],
 };
+
+export default storyConfig;
 
 export { Default };

@@ -22,7 +22,7 @@ export default function MyPurpose() {
   ];
 
   return (
-    <div className="my-purpose relative bg-white h-full">
+    <div className="my-purpose relative bg-white h-full pt-4">
       <div className="relative flex flex-col z-10">
         <LogoHeader title="MY PURPOSE" />
         <div className="flex justify-center mb-8">

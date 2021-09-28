@@ -1,0 +1,8 @@
+.main-menu {
+  background: var(--transparent-bg);
+  backdrop-filter: var(--backdrop-filter-blur);
+}
+
+.main-menu a:hover {
+  color: var(--orange);
+}

@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import React from "react";
 import LandingSection from "./LandingSection";
 import MyPurpose from "./MyPurpose";
 import MyStory from "./MyStory";

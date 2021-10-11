@@ -14,7 +14,7 @@ export default function MainMenu({ shown = false }: MainMenuProps) {
         shown ? "slideInLeft" : "slideOutLeft"
       }`}
     >
-      <div className="flex flex-col open-sans font-semibold pt-7.5 pl-2.5">
+      <div className="flex flex-col font-semibold pt-7.5 pl-2.5">
         <Link className="mb-5" to={myStory}>
           About LTY
         </Link>

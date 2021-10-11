@@ -1,5 +1,5 @@
 interface LogoHeaderProps {
-  title: String;
+  title: string;
 }
 
 export type { LogoHeaderProps };

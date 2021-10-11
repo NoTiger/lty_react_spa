@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-import { ArrowBack } from "components/icons/common";
+import { ArrowBack } from "components/icons";
 import SocialMediaMenu from "components/SocialMediaMenu";
 import { motion } from "framer-motion";
 

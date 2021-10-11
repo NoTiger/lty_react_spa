@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { AppWrapperProps } from "./type";
 import Footer from "components/Footer";
-import { scrollTop } from "utils";
+import { scrollTop } from "utils/scroll";
 
 export default function AppWrapper({
   children,

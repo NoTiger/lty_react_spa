@@ -1,7 +1,7 @@
 import React from "react";
 import { OptionsType } from "./type";
 
-export default function StroyWrapper(
+export default function StoryWrapper(
   story: Function,
   { className = "" }: OptionsType
 ) {

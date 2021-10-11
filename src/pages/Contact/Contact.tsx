@@ -10,7 +10,7 @@ const arrow = {
   pressed: { scale: 0.8 },
 };
 
-export default function ContactForm() {
+export default function Contact() {
   const history = useHistory();
 
   function onClick() {

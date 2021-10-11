@@ -13,7 +13,7 @@ export default function SocialMediaMenu({
 }: SocialMediaMenuProps) {
   return (
     <div
-      className={["social-media-menu inline-block mb-5 mr-2.5", className].join(
+      className={["social-media-menu inline-block z-10 mb-5 mr-2.5", className].join(
         " "
       )}
     >

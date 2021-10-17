@@ -2,7 +2,7 @@ import React from "react";
 import Button from "components/Button";
 import BlurTextBlock from "components/BlurTextBlock";
 import LogoHeader from "components/LogoHeader";
-import myStory from "images/myStory.jpg";
+import myStory from "images/myStory.png";
 import { useHistory } from "react-router-dom";
 import CONSTANT from "constant";
 

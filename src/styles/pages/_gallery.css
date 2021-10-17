@@ -1,0 +1,7 @@
+.gallery.landing-section {
+  background-image: url("images/background/camera.png");
+}
+
+.gallery.landing-section .text-block .title {
+  font-size: 12vw;
+}

@@ -1,3 +1,4 @@
-@import "./_contact.css";
-@import "./_myPurpose";
-@import "./_myStory";
+@import "./_contact";
+@import "./_experience";
+@import "./_gallery";
+@import "./_homepage";

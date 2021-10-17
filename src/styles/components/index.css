@@ -1,7 +1,7 @@
-@import "./_blurTextblock.css";
-@import "./_buttons.css";
-@import "./_footer.css";
-@import "./_landingSection.css";
+@import "./_blurTextblock";
+@import "./_buttons";
+@import "./_footer";
+@import "./_landingSection";
 @import "./_logoHeader";
-@import "./_mainMenu.css";
-@import "./_socialMediaMenu.css";
+@import "./_mainMenu";
+@import "./_socialMediaMenu";

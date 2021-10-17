@@ -1,5 +1,4 @@
 .landing-section {
-  background-image: url("images/background/chilling.png");
   background-position: center;
   background-size: cover;
 }
@@ -14,7 +13,6 @@
 }
 
 .landing-section .text-block .title {
-  font-size: 96px;
   letter-spacing: -0.165em;
   line-height: 99px;
 }

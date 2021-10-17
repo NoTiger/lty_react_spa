@@ -3,12 +3,12 @@
 @import "tailwindcss/utilities";
 
 @import "./_variables";
-@import "./_common.css";
-@import "./_normalization.css";
-@import "./font/index.css";
-@import "./components/index.css";
-@import "./effects/index.css";
-@import "./pages/index.css";
+@import "./_common";
+@import "./_normalization";
+@import "./font/index";
+@import "./components/index";
+@import "./effects/index";
+@import "./pages/index";
 
 /*pay attention: #root > div*/
 html,

@@ -1,8 +1,13 @@
 import React, { useEffect, useState, useRef } from "react";
 import MainMenu from "components/MainMenu";
 import SocialMediaMenu from "components/SocialMediaMenu";
+import { LandingSectionProps } from "./type";
 
-export default function LandingSection(): React.FunctionComponentElement<any> {
+export default function LandingSection({
+  className = "home",
+  title = "",
+  description = "",
+}: LandingSectionProps): React.FunctionComponentElement<LandingSectionProps> {
   const ref = useRef<HTMLDivElement>(null);
   const [shownMenu, setMenuShown] = useState(false);
 
@@ -32,14 +37,12 @@ export default function LandingSection(): React.FunctionComponentElement<any> {
 
   return (
     <div
-      className="landing-section relative h-full"
+      className={[className, "landing-section relative h-full"].join(" ")}
       ref={ref}
     >
       <div className="text-block absolute poppins flex flex-col select-none">
-        <span className="title text-orange">GRAZ</span>
-        <span className="subtitle ml-3 text-white">
-          sustainability / wellness / creativity
-        </span>
+        <span className="title text-orange">{title}</span>
+        <span className="subtitle ml-3 text-white">{description}</span>
       </div>
       <SocialMediaMenu className="absolute bottom-0 right-0" />
       <MainMenu shown={shownMenu} />

@@ -1,0 +1,49 @@
+/* home */
+.home.landing-section {
+  background-image: url("images/background/chilling.png");
+}
+
+.home.landing-section .text-block .title {
+  font-size: 16vw;
+}
+
+/* my-story */
+.my-story {
+  overflow-y: hidden;
+}
+
+.my-story .blur-text-block {
+  width: 83%;
+  height: auto;
+}
+
+.my-story .img-block {
+  top: 25%;
+}
+
+.my-story .img-block img {
+  width: 257px;
+  height: 528px;
+  object-fit: cover;
+}
+
+.my-story .btn {
+  margin-right: 10%;
+}
+
+/* my-purpose */
+
+.my-purpose #img-against-wall {
+  position: relative;
+  left: -20%;
+}
+
+.my-purpose #img-blastik-promo {
+  position: relative;
+  right: -20%;
+}
+
+.my-purpose #img-yolo {
+  position: relative;
+  top: -10vh;
+}

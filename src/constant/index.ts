@@ -13,6 +13,22 @@ const CONSTANT = {
     blastik: "/#blastik",
     contact: "/contact",
   },
+  HOME_PAGE: {
+    LANDING_SECTION: {
+      description: "sustainability / wellness / creativity",
+      title: "GRAZ",
+    },
+  },
+  GALLERY: {
+    LANDING_SECTION: {
+      title: "GALLERY",
+    },
+  },
+  EXPERIENCE: {
+    LANDING_SECTION: {
+      title: "EXPERIENCE",
+    },
+  },
 };
 
 export default CONSTANT;
